@@ -1,0 +1,14 @@
+/* reponsive */
+
+@media (min-width: 768px) {
+    .header-logo__img {
+        width: 223px;
+    }
+}
+
+#slider {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
