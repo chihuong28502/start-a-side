@@ -50,6 +50,9 @@
         margin-top: 1rem;
         
     }
+    .content_star-item-text{
+        margin-left: 0;
+    }
     .content_we-list{
         flex-wrap: wrap;
     }
@@ -57,6 +60,9 @@
         margin-top: 2rem;
         width: 50%;
     } 
+    .content_see-body-item img{
+        width: 100%;
+    }
         
 }
 
