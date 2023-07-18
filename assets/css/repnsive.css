@@ -63,6 +63,9 @@
     .content_see-body-item img{
         width: 100%;
     }
+    .content_see-body-item img {
+        max-height: 100%;
+    }
         
 }
 
