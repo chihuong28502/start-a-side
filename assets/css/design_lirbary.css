@@ -1,0 +1,21 @@
+.slick-dots{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    content: "";
+}
+.slick-dots li:hover button{
+    background-color: #ccc;
+    border: 2px solid #ccc;
+
+}
+.slick-dots li button{
+    font-size: 0!important;
+    background-color: transparent;
+    border: 1px solid #ccc;
+    margin: 1rem;
+    margin-top: 2rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+}

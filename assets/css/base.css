@@ -178,3 +178,5 @@ html {
 
 
 /* footer */
+/* css slick */
+.slick-dots{display: flex;}
