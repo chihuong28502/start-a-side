@@ -19,8 +19,7 @@
 
 html {
     /* HACK */
-    font-size: 62.5%;
-    line-height: 1.6rem;
+    font-size: 10px;
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
 }
@@ -123,29 +122,29 @@ html {
 /* btn-style */
 
 
-/* .btn {
-    line-height: 1.6rem;
-    min-width: 90px;
-    height: 36px;
-    border: none;
-    text-decoration: none;
-    border-radius: 3px;
-    font-size: 1.5rem;
-    padding: 0 12px;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    outline: none;
-    cursor: pointer;
-    color: var(--text-color);
-    background-color: white;
-} */
+
 
 .btn.btn-nomal:hover {
     background-color: rgba(0, 0, 0, 0.03);
 }
 
+@keyframes leftbtn {
+    0%{
+        transform: translate(-2px);
+    }
+    50%{
+        transform: translate(10px);
 
+    }
+    100%{
+        transform: translate(-2px);
+        
+    }
+    
+}
+.p-relative{
+    position: relative;
+}
 /* selection */
 
 .col_half {
@@ -157,7 +156,7 @@ html {
 }
 
 .css_h1 {
-    font-size: 3.6rem;
+    font-size: 3.2rem;
     line-height: 4.4rem;
     font-weight: 700;
     margin: 12px 0;
@@ -165,7 +164,7 @@ html {
 
 .css_p {
     color: #555;
-    font-size: 2.4rem;
+    font-size: 2.2rem;
     font-weight: 200;
     line-height: 2.6rem;
 }
