@@ -7,6 +7,9 @@
     height: 2rem;
     background: url(https://static.cdn.printful.com/static/images/layout/printful_logo.svg) no-repeat;
 }
+.header-logo-mobile{
+    display: none;
+}
 
 .header-form {
 }
